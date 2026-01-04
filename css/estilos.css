@@ -1,0 +1,39 @@
+
+body {
+    font-family: Asimovian, sans-serif; /* https://fonts.google.com/specimen/Asimovian */
+    background-color: #BCDCEB;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #02D1F1;
+    margin-top: 20px;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 0;
+}
+
+
+li {
+    margin: 5px 0;
+}
+
+
+
+
