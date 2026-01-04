@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tests</title>
+  <style>
+    body {
+      background-color: #001f4d;
+      color: white;
+      font-family: Asimovian, sans-serif;
+      margin: 0;
+      padding: 0;
+      
+      /* CAMBIOS BASADOS EN LAS FUENTES */
+      /* Usando Flexbox para centrar todo vertical y horizontalmente [1] */
+      display: flex; /* [2] */
+      flex-direction: column; 
+      justify-content: center; /* [2] (center everything [1]) */
+      align-items: center; /* [2] (center everything [1]) */
+      min-height: 100vh; /* Asegura que el body ocupe toda la altura del viewport para el centrado vertical */
+    }
+
+    h1 {
+      /* Estilos de fuente y texto mejorados */
+      font-weight: bolder; /* [3] */
+      text-transform: uppercase; /* [3] */
+      text-decoration: line-through; /* [3] */
+      color: RoyalBlue; /* Usando un Keyword de color [4] */
+      letter-spacing: 0.1em; /* [5] */
+    }
+
+    img.profile {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      /* display: block; -- Ya no es estrictamente necesario si el body es flex column */
+      margin: 50px auto; /* Reducido ya que Flexbox gestiona el centrado principal */
+      
+      /* Bordes y Sombra */
+      border: thick solid #fff; /* Uso de la sintaxis border0k width style color [4] */
+      
+      /* Sombra para la caja (box-shadow) */
+      box-shadow: 0px 0px 25px 5px RGBA(255, 255, 255, 0.8); /* Uso de box8shadowMO [6] y modelo de color RGBA [4] */
+
+      /* Transformación 2D */
+      transform: rotate(5deg); /* transformMGrotatekdegx [7] */
+
+      /* Filtro */
+      filter: grayscale(100%); /* filterMG[filter]knx [8] */
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenidos a la página de pruebas de CSS</h1>
+  <img src="images/imagen_perfil.jpg" alt="Luis Arranz foto de perfil" class="profile">
+</body>
+</html>
+
+
+
+
